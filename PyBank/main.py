@@ -16,7 +16,7 @@ for row in data:
     revenue = int(row['Profit/Losses'])
     total += revenue
     
-    # Average Chage
+    # Average Change
     change = revenue - pre_revenue
     if pre_revenue == 0:
         change= 0

@@ -12,7 +12,6 @@ my_report = open('analysis/Election_Report.txt','w')
 
 
 # variables
-# Store the number of total votes and store the votes each candidate received individually
 total_votes = 0
 can_list = {}
 win_votes = 0
